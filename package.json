@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "prisma generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predev": "prisma generate && prisma migrate deploy",    "setup": "prisma generate && prisma migrate deploy",    "prisma": "prisma",    "postinstall": "prisma generate"
-
-
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
