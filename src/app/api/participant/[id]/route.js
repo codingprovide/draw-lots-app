@@ -1,5 +1,5 @@
 // app/api/participant/[id]/route.js
-import prisma from "../../../../../lib/prisma";
+import prisma from "@/lib/prisma";
 import { NextResponse } from "next/server";
 
 // 刪除參與者
